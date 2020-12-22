@@ -1,17 +1,30 @@
 # Jiuk's Portfolio
 
+> README의 내용은 상단부터 최신 업데이트 입니다.
+
+---
+
+> home section 추가
+
+-   title
+-   description
+-   contact
+
+---
+
+> navbar
+
+-   logo
+-   navbar
+-   items
+
+---
+
 > head
 
 -   깃허브 설정
 -   폰트어썸, 구글폰트 연결
 -   main.js style.css 설정
 -   favicon 설정
-
----
-
-> navbar
-
--   logo 추가
--   navbar, items추가
 
 ---
