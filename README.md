@@ -4,6 +4,13 @@
 
 ---
 
+> work
+
+-   category
+-   project
+
+---
+
 > skills
 
 -   skillset
