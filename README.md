@@ -4,6 +4,12 @@
 
 ---
 
+> about
+
+-   About me
+-   majors
+-   jobs
+
 > home section 추가
 
 -   title
