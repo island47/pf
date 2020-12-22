@@ -4,11 +4,21 @@
 
 ---
 
+> skills
+
+-   skillset
+-   toos
+-   etc
+
+---
+
 > about
 
 -   About me
 -   majors
 -   jobs
+
+---
 
 > home section 추가
 
