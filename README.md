@@ -4,6 +4,10 @@
 
 ---
 
+> CSS: Navbar
+
+---
+
 > CSS:Typography
 
 ---
