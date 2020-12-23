@@ -403,7 +403,7 @@ p {
 
 .testimonial__avatar {
 	width: 150px;
-	height: 150;
+	height: 150px;
 	border-radius: 50%;
 }
 
@@ -427,4 +427,34 @@ p {
 
 .testimonial__speech-bubble a {
 	color: var(--color-orange);
+}
+
+/* Contect */
+#contact {
+	background-color: var(--color-blue);
+}
+
+.contact__title {
+	margin: 32px 0;
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+	color: var(--color-white);
+}
+
+.contact__links {
+	font-size: var(--font-large);
+	margin: 24px 0;
+}
+
+.contact__links_hover {
+	transition: all var(--animation-duration) ease-out;
+}
+
+.contact__links_hover:hover {
+	transform: scale(1.1);
+	color: var(--color-orange);
+	transition: all var(--animation-duration) ease-in;
 }
