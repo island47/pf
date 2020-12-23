@@ -4,6 +4,14 @@
 
 ---
 
+> CSS:Typography
+
+---
+
+> CSS: Global setup
+
+---
+
 > contact
 
 ---
