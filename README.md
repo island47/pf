@@ -4,6 +4,10 @@
 
 ---
 
+> JS: set work-category-btn on active
+
+---
+
 > JS: work filtering
 
 ---
