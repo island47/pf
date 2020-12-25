@@ -31,3 +31,10 @@ const homeContactBtn = document.querySelector('.home__contact');
 homeContactBtn.addEventListener('click', e => {
 	scrollIntoView('#contact');
 });
+
+// handle home when scrolling to transparent
+const home = document.querySelector('.home__container');
+const homeHeight = home.scrollHeight;
+document.addEventListener('scroll', () => {
+	home.style.opacity = 1 - window.scrollY / homeHeight;
+});

@@ -4,6 +4,10 @@
 
 ---
 
+> JS: home transparent
+
+---
+
 > JS: add Func scrollIntoView
 
 ---
