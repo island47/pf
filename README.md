@@ -4,6 +4,10 @@
 
 ---
 
+> JS: add navbar menu scroll event on click
+
+---
+
 > JS: set navbar transparent
 
 ---

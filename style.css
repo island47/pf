@@ -101,6 +101,7 @@ p {
 	align-items: center;
 	padding: 16px;
 	transition: all var(--animation-duration);
+	z-index: 1;
 }
 
 #navbar.navbar-dark {
@@ -108,7 +109,7 @@ p {
 	padding: 8px;
 }
 
-.navbar__nemu {
+.navbar__menu {
 	display: flex;
 }
 
@@ -122,7 +123,7 @@ p {
 	height: 0.9em;
 }
 
-.nevbar__menu__item {
+.navbar__menu__item {
 	padding: 8px 12px;
 	margin: 0 4px;
 	cursor: pointer;
@@ -130,11 +131,11 @@ p {
 	color: var(--color-white);
 }
 
-.nevbar__menu__item.active {
+.navbar__menu__item.active {
 	border: 1px solid var(--color-white);
 }
 
-.nevbar__menu__item:hover {
+.navbar__menu__item:hover {
 	background-color: var(--color-dark-blue);
 }
 
