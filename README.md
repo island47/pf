@@ -4,6 +4,10 @@
 
 ---
 
+> JS: set navbar transparent
+
+---
+
 > CSS: Responsive
 
 ---
