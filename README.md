@@ -4,6 +4,10 @@
 
 ---
 
+> JS: navbar menu toggle
+
+---
+
 > JS: set work-category-btn on active
 
 ---

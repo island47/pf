@@ -9,6 +9,7 @@ document.addEventListener('scroll', () => {
 	} else {
 		navbar.classList.remove('navbar-dark');
 	}
+	navbarMenu.classList.remove('open');
 });
 
 //  handle scrolling when click on the navbar menu
@@ -20,6 +21,12 @@ navbarMenu.addEventListener('click', e => {
 		return;
 	}
 	scrollIntoView(link);
+});
+
+// navbar toggle btn
+const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+navbarToggleBtn.addEventListener('click', () => {
+	navbarMenu.classList.toggle('open');
 });
 
 //  handle click on "contact me" button on home
