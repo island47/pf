@@ -4,6 +4,10 @@
 
 ---
 
+> JS: home contact button
+
+---
+
 > JS: add navbar menu scroll event on click
 
 ---
