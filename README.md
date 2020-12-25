@@ -4,6 +4,10 @@
 
 ---
 
+> JS: add Func scrollIntoView
+
+---
+
 > JS: home contact button
 
 ---
