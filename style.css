@@ -449,7 +449,7 @@ p {
 	color: var(--color-orange);
 }
 
-/* Contect */
+/* Contact */
 #contact {
 	background-color: var(--color-blue);
 }
@@ -479,6 +479,31 @@ p {
 	transition: all var(--animation-duration) ease-in;
 }
 
+/* arrow */
+.arrow-up {
+	position: fixed;
+	bottom: 48px;
+	right: 48px;
+	width: 70px;
+	height: 70px;
+	font-size: 48px;
+	background-color: var(--color-orange);
+	color: var(--color-white);
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 300ms ease-in;
+}
+
+.arrow-up:hover {
+	transform: scale(1.1);
+	transition: all 200ms ease-in;
+}
+
+.arrow-up.visible {
+	opacity: 1;
+	pointer-events: auto;
+}
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
 	.navbar__toggle-btn {

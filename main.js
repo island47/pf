@@ -1,8 +1,4 @@
 'use strict';
-// function scrollIntoView
-function scrollIntoView(selector) {
-	document.querySelector(selector).scrollIntoView({ behavior: 'smooth' });
-}
 
 // set navbar transparent
 const navbar = document.querySelector('#navbar');
@@ -38,3 +34,23 @@ const homeHeight = home.scrollHeight;
 document.addEventListener('scroll', () => {
 	home.style.opacity = 1 - window.scrollY / homeHeight;
 });
+
+//  show arrow up btn
+const arrowUp = document.querySelector('.arrow-up');
+document.addEventListener('scroll', () => {
+	if (window.scrollY > homeHeight / 2) {
+		arrowUp.classList.add('visible');
+	} else {
+		arrowUp.classList.remove('visible');
+	}
+});
+
+// handle click on the arrow up btn
+arrowUp.addEventListener('click', () => {
+	scrollIntoView('#home');
+});
+
+// function scrollIntoView
+function scrollIntoView(selector) {
+	document.querySelector(selector).scrollIntoView({ behavior: 'smooth' });
+}
